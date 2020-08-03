@@ -73,7 +73,14 @@
         padding: 10px 14px;
     }
     /* ABOUT ME */
+    .mycv__right2{
+        padding: 40px 36px;
+    }
+    .aboutme__right{
+        margin-top: 30px;
+    }
     .mycv__right-aboutme {
+        
         flex-direction: column;
     }
     .mycv__right-funfact{
@@ -82,5 +89,12 @@
     .funfact__item{
         width:100%;
         margin-bottom: 20px;
+    }
+    /* RESUME */
+    .resume{
+        flex-direction: column;
+    }
+    .mycv__right3 {
+        padding: 40px 36px;
     }
 }
