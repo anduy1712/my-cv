@@ -4,6 +4,7 @@
 
     }
     .mycv{
+        width: 100%;
         height: 100%;
     }
     .mycv__left{
@@ -71,5 +72,15 @@
         background-color: #04b4e0;
         padding: 10px 14px;
     }
-    
+    /* ABOUT ME */
+    .mycv__right-aboutme {
+        flex-direction: column;
+    }
+    .mycv__right-funfact{
+        flex-direction: column;
+    }
+    .funfact__item{
+        width:100%;
+        margin-bottom: 20px;
+    }
 }
