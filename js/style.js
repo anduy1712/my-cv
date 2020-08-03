@@ -42,3 +42,9 @@ function OpenID4(){
    document.getElementById('toolbar__link3').style.color = "#babbbc";
   
 }
+function OpenID5(){
+   document.getElementById('toolbar__mobileid').style.transform= "translateX(0%)";
+}
+function OpenID6(){
+   document.getElementById('toolbar__mobileid').style.transform= "translateX(100%)";
+}

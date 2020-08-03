@@ -5,7 +5,11 @@
     height: 100vh;
     background-color: #eeeeee;
 }
+.mobile{
+    display: none;
+}
 /* MY CV */
+
 .mycv{
     border-radius: 26px;
     display: flex;
@@ -458,4 +462,8 @@
 .boxproject__item-image:hover{
     transform: scale(1.5);
     cursor: pointer;
+}
+
+.checkbox_class:checked ~ .toolbar__mobile {
+    transform: translateX(0%);
 }

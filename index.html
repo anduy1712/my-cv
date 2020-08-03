@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/base.css">
      <!-- FONT GOOGLE -->
      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700&display=swap" rel="stylesheet">
+     <!-- For  Mobile -->
+     <link rel="stylesheet" href="css/mobile.css">
      <!-- ICON -->
     <script src="https://kit.fontawesome.com/30d0043b0e.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
@@ -16,23 +18,68 @@
 </head>
 <body>
 <div class="container">
+       
                 <!-- MY CV -->
                 <div class="mycv">
                         <div class="mycv__left">
-                                <img src="https://lmpixels.com/wp/breezycv-wp-lin/demo2/wp-content/uploads/sites/2/2020/06/main_photo.jpg" alt="" class="mycv__left-img">
+                                        <img src="https://lmpixels.com/wp/breezycv-wp-lin/demo2/wp-content/uploads/sites/2/2020/06/main_photo.jpg" alt="" class="mycv__left-img">
                                         <h2 class="mycv__left-name">Duy An</h2>
                                         <p class="mycv__left-major">FRONT-END DEVELOPER</p>
                                         <div class="mycv__left-social"></div>
                                         <a href="#" class="mycv__left-dowloand">Dowloand</a>
                                         <p class="mycv__left-copyright">© 2020 All rights reserved.</p>
-                                </div>
-                                <!-- PAGE 1 -->
-                                <div id="mycv_right1" class="mycv__right animate__animated animate__fadeInDown            ">
+                        </div>
+                        <!-- Mobile -->
+                       
+                        <!-- PAGE 1 -->
+                        <div id="mycv_right1" class="mycv__right animate__animated animate__fadeInDown            ">
                                         <h1 class="mycv__right-title">Duy An</h1>
                                         <p class="mycv__right-major">FRONT-END DEVELOPER</p>
-                                </div>
-                                <!-- PAGE 2 -->
-                                <div id="mycv_right2" class="mycv__right2 animate__animated animate__fadeInRight">
+                                        <div class="mobile">
+                                                        <div class="nav">
+                                                                <a onclick="OpenID5()" class="bars">
+                                                                        <i class="fas fa-bars"></i>
+                                                                </a>
+                                                              <ul id="toolbar__mobileid" class="toolbar__mobile">
+                                                                
+                                                                
+                                                                <a onclick="OpenID6()">
+                                                                        <i  class="fas fa-times"></i>
+                                                                </a>
+                                                                
+                                                                <li class="toolbar__mobile-item brand">
+                                                                                <img src="https://lmpixels.com/wp/breezycv-wp-lin/demo2/wp-content/uploads/sites/2/2020/06/main_photo.jpg" alt="" class="mycv__left-img">
+                                                                                <h2 class="mycv__left-name">Duy An</h2>
+                                                                                <p class="mycv__left-major">FRONT-END DEVELOPER</p>
+                                                                </li>
+                                                                      
+                                                                <li class="toolbar__mobile-item">
+                                                                        <a onclick="OpenID1()" id="toolbar__link1" href="#" class="toolbar__mobile-link">
+                                                                                Home
+                                                                        </a>
+                                                                        
+                                                                </li>
+                                                                <li  class="toolbar__mobile-item">
+                                                                        <a onclick="OpenID2()" id="toolbar__link2"  href="#" class="toolbar__mobile-link">
+                                                                               About me
+                                                                        </a>
+                                                                </li>
+                                                                <li class="toolbar__mobile-item">
+                                                                        <a onclick="OpenID3()" id="toolbar__link3" href="#" class="toolbar__mobile-link">
+                                                                               Resume
+                                                                        </a>
+                                                                </li>
+                                                                <li class="toolbar__mobile-item">
+                                                                        <a onclick="OpenID4()" href="#" class="toolbar__mobile-link">
+                                                                              Project
+                                                                        </a>
+                                                                </li>
+                                                                </ul>  
+                                                        </div>
+                                                </div>
+                        </div>
+                        <!-- PAGE 2 -->
+                         <div id="mycv_right2" class="mycv__right2 animate__animated animate__fadeInRight">
                                         <!-- PAGE ABOUT ME -->
                                         <h3 class="aboutme__title">About Me</h3>
                                         <!-- Chinh lai ten class "mycv__right-aboutme" cho phu hop -->
@@ -107,9 +154,9 @@
                                                         <p class="funfact__item-count">15</p>
                                                 </div>
                                         </div>
-                                </div>
-                                <!-- PAGE 3 -->
-                                <div id="mycv_right3" class="mycv__right3 animate__animated animate__rotateInUpRight">
+                        </div>
+                        <!-- PAGE 3 -->
+                        <div id="mycv_right3" class="mycv__right3 animate__animated animate__rotateInUpRight">
                                         <!-- PAGE RESUME -->
                                         <h3 class="resume__title">Resume</h3>
                                         <div class="resume">
@@ -184,9 +231,9 @@
                                                         </div>
                                                 </div>
                                         </div>
-                                </div>
-                                 <!-- PAGE 4 -->
-                                 <div id="mycv_right4" class="mycv__right4 animate__animated animate__rotateInUpRight">
+                        </div>
+                        <!-- PAGE 4 -->
+                        <div id="mycv_right4" class="mycv__right4 animate__animated animate__rotateInUpRight">
                                                 <!-- PAGE RESUME -->
                                                 <h3 class="aboutme__title">My Project</h3>
                                                 <ul class="navbar">
@@ -251,10 +298,11 @@
                                                                 <h5 class="box_project__item-title">SoundCloud Audio</h5>
                                                         </div>
                                                 </div>
-                                </div>
                         </div>
+                       
+                </div>
                         <!-- TOOLS BAR -->
-                        <div class="toolbar">
+                <div class="toolbar">
                                 <ul class="toolbar__list">
                                         <li class="toolbar__list-item">
                                                 <a onclick="OpenID1()" id="toolbar__link1" href="#" class="toolbar__list-link">
@@ -281,7 +329,7 @@
                                                 </a>
                                         </li>
                                 </ul>
-                        </div>
+                </div>
                 </div>
 <script src="js/style.js"></script>
 </body>
