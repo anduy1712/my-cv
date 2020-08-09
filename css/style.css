@@ -450,7 +450,8 @@
 }
 .boxproject__item-image{
     width:100%;
-    
+    min-height: 250px;
+    border:1px solid #efefef;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
@@ -458,6 +459,10 @@
     font-size:1.6rem;
     margin-top:8px;
     font-weight: 500;
+}
+.boxproject__item-link{
+    text-decoration: none;
+    color:black;
 }
 .boxproject__item:hover{
 
